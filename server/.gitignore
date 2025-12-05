@@ -3,10 +3,15 @@ node_modules/
 
 # Environment files
 .env
-.env.*
 
 # TypeScript build output
 dist/
+coverage
+node_modules
+*.log
+tmp
+.husky
+.vscode
 
 # Local debug logs
 npm-debug.log*
